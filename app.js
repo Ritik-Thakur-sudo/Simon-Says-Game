@@ -88,21 +88,3 @@ function reset() {
     userSequence = [];
     level = 0;
 }
-
-// track for the high score
-
-// let highScore = localStorage.getItem("highScore") || 0;
-
-// h2.innerHTML = `Game Over! Your score was <b>${level}</b>. <br /> Press any key to start`;
-
-// if (level > highScore) {
-//     highScore = level;
-//     localStorage.setItem("highScore", highScore);
-// }
-
-// h2.innerHTML = `Game Over! Your score was <b>${level}</b>. <br /> Press any key to restart`;
-// document.getElementById("high-score").innerText = `High Score: ${highScore}`;
-
-// h2.innerText = `Level ${level}`;
-
-// document.getElementById("high-score").innerText = `High Score: ${highScore}`;
